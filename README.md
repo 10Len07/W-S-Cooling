@@ -33,15 +33,16 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Solve the problems of environmental damage caused by solar panel installation and thermal damage to crops through W-S Cooling
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Watson Studio optimizes W-S Cooling for spray cooling at the right time
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+W-S Cooling is a PV-Wind hybrid system installed in farms that integrates a misting system. It utilizes MOFs material to absorb moisture from the air, and then transfers the waste heat from the solar panels through a thermal tube to the MOFs, causing it to evaporate and obtain water that is used by the misting system to cool down the crops and reduce heat damage. 
+The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
 
 More detail is available in our [description document](./docs/DESCRIPTION.md).
 
@@ -49,18 +50,13 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
 
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+Through the VPC virtual server, W-S Cooling can establish a database to view the temperature, humidity, wind speed and other values ​​in the area, thereby optimizing W-S Cooling operations and maximizing the benefits of cooling and power generation.
 
 ### Solution architecture
 
@@ -79,7 +75,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://img.onl/00mQu4)](https://www.youtube.com/watch?v=V6XqGmKkEIo)
 
 ### Project development roadmap
 
@@ -111,7 +107,6 @@ See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 ---
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
 
 ## About this template
 
