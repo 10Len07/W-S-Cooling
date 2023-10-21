@@ -19,7 +19,6 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [Project development roadmap](#project-development-roadmap)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
-  - [Live demo](#live-demo)
 - [About this template](#about-this-template)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -44,12 +43,9 @@ Watson Studio optimizes W-S Cooling for spray cooling at the right time
 W-S Cooling is a PV-Wind hybrid system installed in farms that integrates a misting system. It utilizes MOFs material to absorb moisture from the air, and then transfers the waste heat from the solar panels through a thermal tube to the MOFs, causing it to evaporate and obtain water that is used by the misting system to cool down the crops and reduce heat damage. 
 The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
-
 ## Technology implementation
 
 ### IBM AI service(s) used
-
 
 - [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 
@@ -66,13 +62,14 @@ Diagram and step-by-step description of the flow of our solution:
 ![W-S Cooling Cloud services](https://img.onl/YeRU27)
 
 There are two W-S Cooling backend and cloud data technologies:
+
 1. The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
 
 2.W-S Cooling can establish a database to view temperature, humidity, wind speed and other values ​​in the area, thereby optimizing W-S Cooling operations and maximizing the benefits of cooling and power generation.
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._ PPT直接繳交
+[W-S Cooling Presentation](https://s30.aconvert.com/convert/p3r68-cdx67/an92d-o2pcq.html)
 
 ### Solution demo video
 
@@ -90,11 +87,9 @@ The project currently does the following things.
 
 In the future we plan to...
 
-![Roadmap](./images/roadmap.jpg) 未來發展還沒做
+![Roadmap](https://img.onl/0ZGblU) 
 
 ## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
@@ -115,13 +110,6 @@ Application of Thin-Film Solar Cells:
 Using flexible glass to adhere to thin-film solar cells not only extends their lifespan but also facilitates convenient dust cleaning, while reducing manufacturing costs.  Thin-film solar cells can be rolled out like paper and cut into the desired size for mass production.
 
 W-S Cooling adopts the Archimedes spiral fan blade, which has already been applied in existing products, demonstrating its manufacturing feasibility.
-
-
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 ---
 
