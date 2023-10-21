@@ -52,6 +52,7 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 
 - [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+
 The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
 
 ### Other IBM technology used
@@ -62,16 +63,16 @@ Through the VPC virtual server, W-S Cooling can establish a database to view the
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![W-S Cooling Cloud services](https://img.onl/YeRU27)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+There are two W-S Cooling backend and cloud data technologies:
+1. The Watson Studio service optimizes W-S Cooling's spray cooling at the correct temperature and time. Visual charts present data such as wind speed and wind volume, and turn the wind turbine to a strong wind location to optimize power generation.
+
+2.W-S Cooling can establish a database to view temperature, humidity, wind speed and other values ​​in the area, thereby optimizing W-S Cooling operations and maximizing the benefits of cooling and power generation.
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._ PPT直接繳交
 
 ### Solution demo video
 
@@ -81,15 +82,15 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+1. Spray cooling protects crops from heat damage
+
+2. PV-Wind hybrid system allows the installation of solar energy without damaging the land
+
+3. The agricultural and electricity symbiosis strategy brings positive benefits to farmers
 
 In the future we plan to...
 
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
-
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/roadmap.jpg) 未來發展還沒做
 
 ## Additional details
 
@@ -97,7 +98,24 @@ _INSTRUCTIONS: The following deliverables are suggested, but **optional**. Addit
 
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+Principle application of W-S Cooling
+Wind-Solar Complementary Energy Storage System:
+By utilizing wind-solar complementary technology, the efficiency and stability of green energy generation are enhanced.  The energy is stored in a storage system for later use.
+
+Wind Tunnel Effect:
+The contraction of the wind tunnel reduces air pressure, resulting in increased wind speed, which improves the efficiency of the wind turbines for power generation.
+
+Spray Cooling:
+The spray system evaporates water molecules, absorbing environmental heat, effectively cooling the surroundings and creating a refreshing effect.
+
+Manufacturing Method of MOFs:
+MOFs can be obtained in batches by homogenizing them through binders or plasticizers and then squeezing and cutting them using an extrusion machine.
+
+Application of Thin-Film Solar Cells:
+Using flexible glass to adhere to thin-film solar cells not only extends their lifespan but also facilitates convenient dust cleaning, while reducing manufacturing costs.  Thin-film solar cells can be rolled out like paper and cut into the desired size for mass production.
+
+W-S Cooling adopts the Archimedes spiral fan blade, which has already been applied in existing products, demonstrating its manufacturing feasibility.
+
 
 ### Live demo
 
